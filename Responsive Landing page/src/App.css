@@ -1,0 +1,140 @@
+#home, #about, #services, #contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#about {
+  background-image: url('https://res.cloudinary.com/duz2ivzgc/image/upload/v1723210962/255902_iiutmi.jpg');
+  background-size: cover;
+}
+
+#services {
+  background-image: url('https://res.cloudinary.com/duz2ivzgc/image/upload/v1723212829/10858558_xcznlh.jpg');
+  background-size: cover;
+}
+
+#contact {
+  background-image: url('https://res.cloudinary.com/duz2ivzgc/image/upload/v1690269120/julian-hochgesang-psGV5KhidlY-unsplash_qe5ed1.jpg');
+  background-size: cover;
+  color: white;
+}
+.service-item {
+  width: 30%;
+  margin: 20px 0;
+}
+#home h1{
+  font-size: 75px;
+  font-size: 75px;
+  background: linear-gradient(to right, #000000, #ffffff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  text-fill-color: transparent; 
+  margin: 0; 
+  background-color: #000000;
+
+}
+#home p {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+#home button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#about, #services, #contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: 30%;
+  margin: 20px 0;
+}
+.service-item.h1 {
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+#home button:hover {
+  background-color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+#home {
+  background-image: url('https://res.cloudinary.com/duz2ivzgc/image/upload/v1668497020/samples/animals/three-dogs.jpg ');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
