@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://res.cloudinary.com/duz2ivzgc/image/upload/v1725171949/1540005_u9cadx.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+  
+  .container {
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px; 
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70%;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bcfd4c;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #a4d83d;
+  }
+  
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .weather-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info {
+    text-align: left;
+  }
+  
+  .weather-icon {
+    margin: 20px 0;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
+  .weather-info b {
+    font-weight: bold;
+  }
+  
+  .weather-info i {
+    font-style: italic;
+  }
+  
+  @media (max-width: 600px) {
+    .input {
+      width: 100%;
+    }
+  
+    .button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
